@@ -136,6 +136,7 @@ node cli/makefun.mjs claim --claim <claim-id> \
 - **Keep all the work in one agent session, in the entry repo.** The checks match transcripts against the code, so work done in a session that never touched the repo — or code pasted in from outside — counts for less or not at all.
 - **Grade locally first when the kit allows it.** The practice score is the closest preview of the real grade you will get.
 - **Leave time for a second attempt.** Your first submission often comes back with a fixable check failure. Submitting early gives you room to fix and resubmit before the deadline.
+- **Your guide only scores if people sign up through it.** Post the link where developers already gather — your GitHub profile README, a dev Discord, your X bio — and say plainly what make.fun is before dropping the link; a bare link with no context converts almost nobody.
 - **Read the bounty page again after you build.** It is easy to miss a small rule — a required file, a size limit, a README badge — and the checks enforce exactly what the page says.
 
 ## Let your agent run the whole loop
@@ -155,6 +156,9 @@ Every account gets a referral link like `https://make.fun/r/<code>`, and `?ref=<
 If this guide helped, signing up through [my link](https://make.fun/r/qkpw14ah) (code `qkpw14ah`) is a nice way to say thanks.
 
 ## Common questions
+
+**If someone clicks my link but signs up later, do I still get credit?**
+Yes — the first referral link a visitor's browser saw wins for 60 days, so a signup within that window still counts for you even if they come back through a different link later.
 
 **Does it cost anything?**
 Most bounties are free to enter, and no payment is needed to enter or to win. The model calls your agent makes while building are on your own account.
